@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Articel from "./pages/Articel";
 import ArticelDetail from "./pages/ArticelDetail";
 export default function App() {
+  const [artikel, setArtikel] = useState([]);
+
   const listArticel = [
     {
       username: "Hosea",
@@ -103,6 +105,76 @@ export default function App() {
      
      Aku menceritakannya karena tak ada topik lain kala itu. Aku tak pernah menduga seseorang akan percaya dengan apa yang kuceritakan. Mungkin Casandra hanya ingin memanfaatkan mitos itu untuk membuat pertemuan ini jadi semakin sentimentil dan romantis untuk titik balik hubungan yang sempat terancam kandas.`,
       img: "https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?auto=compress&cs=tinysrgb&w=600",
+    },
+    {
+      username: "Alya",
+      slug: "pemahaman-mendalam-tentang-closure-di-javascript",
+      title: "Pemahaman Mendalam tentang Closure di JavaScript",
+      body: "Closure memungkinkan fungsi mengakses variabel dari scope luar meskipun fungsi tersebut dieksekusi di luar konteks awalnya. Konsep ini penting dalam JavaScript, terutama dalam pengelolaan state dan callback.",
+      img: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg",
+    },
+    {
+      username: "Fajar",
+      slug: "perbandingan-framework-front-end-terpopuler-di-2025",
+      title: "Perbandingan Framework Front-End Terpopuler di 2025",
+      body: "React, Vue, dan Svelte semakin bersaing di tahun 2025. Artikel ini mengulas kelebihan dan kekurangan dari masing-masing framework berdasarkan performa, dokumentasi, dan komunitas.",
+      img: "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg",
+    },
+    {
+      username: "Laras",
+      slug: "pengantar-dasar-ux-design-untuk-developer",
+      title: "Pengantar Dasar UX Design untuk Developer",
+      body: "Memahami dasar-dasar UX Design penting agar developer tidak hanya membuat aplikasi yang berfungsi, tetapi juga menyenangkan untuk digunakan.",
+      img: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
+    },
+    {
+      username: "Rafi",
+      slug: "konsep-reactive-programming-dalam-javascript",
+      title: "Konsep Reactive Programming dalam JavaScript",
+      body: "Reactive Programming adalah pendekatan pemrograman deklaratif berbasis data stream. Artikel ini membahas penerapannya di JavaScript menggunakan RxJS.",
+      img: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg",
+    },
+    {
+      username: "Tania",
+      slug: "strategi-menghadapi-interview-software-engineer",
+      title: "Strategi Menghadapi Interview Software Engineer",
+      body: "Tips dan strategi untuk menghadapi interview teknis, mulai dari coding challenge, system design, hingga pertanyaan soft skill.",
+      img: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg",
+    },
+    {
+      username: "Dino",
+      slug: "mengenal-nodejs-dan-ecosystemnya",
+      title: "Mengenal Node.js dan Ekosistemnya",
+      body: "Node.js memungkinkan JavaScript berjalan di sisi server. Artikel ini mengupas arsitektur, kelebihan, dan bagaimana memulai proyek Node.js.",
+      img: "https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg",
+    },
+    {
+      username: "Nabila",
+      slug: "web-performance-optimization-untuk-pemula",
+      title: "Web Performance Optimization untuk Pemula",
+      body: "Pelajari cara mempercepat loading website dengan teknik optimasi gambar, lazy loading, dan penggunaan CDN.",
+      img: "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg",
+    },
+    {
+      username: "Ihsan",
+      slug: "algoritma-pencarian-dan-penerapannya",
+      title: "Algoritma Pencarian dan Penerapannya",
+      body: "Dari linear hingga binary search, pahami perbedaan algoritma pencarian dan di mana masing-masing sebaiknya digunakan.",
+      img: "https://images.pexels.com/photos/210241/pexels-photo-210241.jpeg",
+    },
+    {
+      username: "Sinta",
+      slug: "progressive-web-app-pwa-untuk-developer-modern",
+      title: "Progressive Web App (PWA) untuk Developer Modern",
+      body: "PWA menggabungkan kelebihan web dan aplikasi native. Pelajari cara membuat aplikasi yang bisa diakses offline, installable, dan cepat.",
+      img: "https://images.pexels.com/photos/267614/pexels-photo-267614.jpeg",
+    },
+    {
+      username: "Bram",
+      slug: "javascript-modularization-dengan-es6-modules",
+      title: "JavaScript Modularization dengan ES6 Modules",
+      body: "Modularisasi membantu menjaga kode tetap terorganisir. Pelajari bagaimana ES6 Modules bekerja dan bagaimana cara menggunakannya.",
+      img: "https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg",
     },
   ];
   const router = createBrowserRouter([

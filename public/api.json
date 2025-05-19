@@ -1,0 +1,72 @@
+[
+  {
+    "username": "Hosea",
+    "slug": "menyelami-dunia-http-request-dalam-javascript-menggunakan-axios",
+    "title": "Menyelami Dunia HTTP Request dalam JavaScript Menggunakan Axios",
+    "body": "Dalam pengembangan web modern, pertukaran data antara klien (browser) dan server...",
+    "img": "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "username": "Rananda",
+    "slug": "membangun-masa-depan-tanggal-dan-waktu-di-javascript-dengan-temporal-api",
+    "title": "Membangun Masa Depan Tanggal dan Waktu di JavaScript Dengan Temporal API",
+    "body": "Dalam lanskap pengembangan perangkat lunak modern, penanganan tanggal dan waktu merupakan fondasi...",
+    "img": "https://images.pexels.com/photos/4709285/pexels-photo-4709285.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "username": "Yasir",
+    "slug": "mengelola-operasi-asinkron-dalam-perulangan-di-javascript-dari-sekuensial-hingga-paralel-dengan",
+    "title": "Mengelola Operasi Asinkron dalam Perulangan di JavaScript: Dari Sekuensial Hingga Paralel dengan Promise dan Async/Await",
+    "body": "Dalam pengembangan perangkat lunak modern menggunakan JavaScript, interaksi dengan sumber daya eksternal seperti API web...",
+    "img": "https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "username": "Naldi",
+    "slug": "nasi-uduk-warung-jakart",
+    "title": "Nasi Uduk “Warung Jakarta”",
+    "body": "If you’ve read my last post, you’d know that I was let down by nasi uduk Kerobokan...",
+    "img": "https://images.pexels.com/photos/161519/pexels-photo-161519.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "username": "Dway",
+    "slug": "kota-kucing",
+    "title": "Kota Kucing",
+    "body": "Kota mati itu diberi nama Kota Kucing. Letaknya sekitaran tiga puluh kilo meter ke arah barat daya dari pusat kota Boulder...",
+    "img": "https://images.pexels.com/photos/1468379/pexels-photo-1468379.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "username": "Hosea",
+    "slug": "pemrograman-fungsional-dengan-javascript",
+    "title": "Pemrograman Fungsional dengan JavaScript",
+    "body": "Pemrograman fungsional adalah paradigma pemrograman yang memperlakukan komputasi sebagai evaluasi dari fungsi matematika...",
+    "img": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "username": "Rananda",
+    "slug": "react-suspense-dan-future-rendering",
+    "title": "React Suspense dan Masa Depan Rendering",
+    "body": "React Suspense adalah fitur baru dari React yang memungkinkan komponen menunggu data sebelum dirender...",
+    "img": "https://images.pexels.com/photos/5428835/pexels-photo-5428835.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "username": "Yasir",
+    "slug": "nodejs-streams-untuk-pemrosesan-data-besar",
+    "title": "Node.js Streams untuk Pemrosesan Data Besar",
+    "body": "Streams di Node.js memungkinkan pemrosesan data dalam potongan kecil, ideal untuk data besar...",
+    "img": "https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "username": "Naldi",
+    "slug": "eksplorasi-web-scraping-dengan-cheerio",
+    "title": "Eksplorasi Web Scraping dengan Cheerio",
+    "body": "Cheerio memungkinkan manipulasi DOM pada Node.js seperti jQuery, cocok untuk scraping halaman HTML...",
+    "img": "https://images.pexels.com/photos/11035381/pexels-photo-11035381.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "username": "Dway",
+    "slug": "puisi-untuk-senja",
+    "title": "Puisi untuk Senja",
+    "body": "Kala senja datang, langit berubah jingga. Aku duduk sendiri mengenang semua luka dan tawa...",
+    "img": "https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=600"
+  }
+]
