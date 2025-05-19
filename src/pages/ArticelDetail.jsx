@@ -23,7 +23,7 @@ export default function ArticelDetail({ articel }) {
           <div key={i} className="bg-white shadow-md p-6 rounded-xl">
             <h2 className="text-xl font-semibold mb-2">{e.title}</h2>
 
-            <p className="text-sm text-gray-500">{e.username}</p>
+            <p className="text-sm text-gray-500">Author: {e.username}</p>
             <div className="flex justify-center">
               <img
                 src={e.img}

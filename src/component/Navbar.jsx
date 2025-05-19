@@ -9,10 +9,6 @@ export default function Navbar() {
         <div className="text-6xl font-serif font-bold">Medium</div>
       </Link>
       <div className="flex gap-6 items-center">
-        <div className="flex border-1 items-center p-2 gap-2 rounded-lg">
-          <Search />
-          <input type="text" className="border-none outline-none" />
-        </div>
         <div className="flex gap-6">
           <Bell />
           <p className="font-serif font-bold">Hosea</p>
