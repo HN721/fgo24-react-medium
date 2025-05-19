@@ -52,6 +52,58 @@ export default function App() {
       await: Hanya bisa digunakan di dalam fungsi async. await digunakan di depan ekspresi yang mengembalikan Promise. Ini akan menjeda eksekusi fungsi async sampai Promise tersebut settled. Jika Promise fulfilled, await mengembalikan nilai hasilnya. Jika rejected, await melempar error.`,
       img: "https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
+    {
+      username: "Naldi",
+      slug: "nasi-uduk-warung-jakart",
+      title: "Nasi Uduk “Warung Jakarta”",
+      body: `If you’ve read my last post, you’d know that I was let down by nasi uduk Kerobokan. (If you haven’t read it, you’re missing out! Click here to read about it).
+
+      The very next week, I decided to re-visit the place, this time on a Saturday. At around ten, I arrived. As soon as I saw the warung was up and running, my eyes lit up. To add to my excitement, the cakwe stall beside it was also open. I nearly drooled at the prospect of the combination.`,
+      img: "https://images.pexels.com/photos/32083423/pexels-photo-32083423.jpeg?auto=compress&cs=tinysrgb&w=600",
+    },
+    {
+      username: "Dway",
+      slug: "kota-kucing",
+      title: "Kota Kucing",
+      body: `Kota mati itu diberi nama Kota Kucing. Letaknya sekitaran tiga puluh kilo meter ke arah barat daya dari pusat kota Boulder, negara bagian Colorado USA. Kota itu berada di tengah-tengah ratusan hektar tanah tandus dan dikelilingi tembok kokoh setinggi pohon kelapa.
+
+     Kata seorang penggemar hal-hal gaib di Facebook, Kota Kucing dulunya adalah sebuah hutan luas tempat anggota suku Indian Neflami yang tersisa menikmati kebebasan terakhir mereka. Namun setelah pasukan penakluk dari Barat menemukan mereka — karena pengkhianatan salah satu anggota suku, di tempat itu terjadi pembantaian besar-besaran. Pohon-pohon yang menyaksikan itu ikut berduka sehingga puasa air dan akhirnya mati. Hanya hitungan bulan tanah hijau itu menjadi tandus dan kering.
+     
+     Saat revolusi industri meletus di Amerika, pabrik dan pemukiman sempat dibangun. Namun roh-roh yang bersemayam di sana menjelma hantu yang menakuti seluruh penduduk. Para penduduk yang tak tahan kabur dan hanya menyisakan kucing-kucing perliharaan yang terus berkembangbiak.
+     
+     Roh-roh yang bersemayam di sana kemudian memasuki tubuh kucing untuk kembali merasakan kebebasan yang belum tuntas mereka rasakan. Tidak hanya itu, ada juga cerita kalau penduduk di sana bukan pergi karena ditakuti hantu tapi diculik alien lalu diubah menjadi kucing.
+     
+     Meski ada banyak versi, yang lebih dipercaya orang-orang adalah cerita tentang kucing-kucing yang berisi roh-roh manusia pencari kebebasan. Maka berdatanganlah para pencari kebebasan di sana yang menjadikan kota kucing sebagai pelarian agar lepas dari segala macam beban sebagai manusia.
+     
+     Sebuah berita pernah mengguncang Amerika di dekade 90-an. Ratusan kaum hippie, sengaja masuk ke sana dan bunuh diri massal untuk merasakan kehidupan bebas sebagai kucing. Sadar kejadian serupa bisa terjadi, pemerintah membangun tembok kokoh dan menutup akses masuk ke sana. Meski demikian, ada cerita bahwa terowongan bawah tanah digali oleh orang-orang di beberapa sisi. Jika bersungguh-sungguh mencari kebebasan, roh-roh penunggu akan menunjukkan arah menuju terowongan.
+     
+     Aku tak percaya dengan cerita seperti itu. Aku juga tak tahu kebenaran tentang kota mati itu karena belum pernah berkunjung langsung ke sana. Hanya lewat obrolan media sosial dari grup penggemar teori konspirasi dan pencari UFO aku bisa sedikit menggali informasi.
+     
+     Aku senang dengan teori konspirasi karena dari sanalah aku bisa melihat banyak orang yang melihat dunia dengan cara pandang yang berbeda. Aku bosan dengan pandangan ilmiah yang kaku dan dingin. Lewat mitos-mitos itu aku bisa berekreasi dari rutinitas kampus yang bikin stress.
+     
+     Lambat laun beberapa mitos itu berpengaruh besar dalam hidupku. Dan mitos itulah yang mengiringi perjalananku siang ini. Aku akan bertemu dengan Casandra Liaow, mahasiswa Indonesia berdarah Tionghoa yang kukenal setahun lalu ketika aku menghadiri festival budaya Asia di aula besar kampus University of Colorado pada akhir musim dingin. Di dalam bis aku mengenang awal perjumpaan kami.
+     
+     Kala itu aku dan dia tergabung di PPI (Perhimpunan Pelajar Indonesia) Colorado. Kami kebetulan berada di divisi Humas. Kami sering terlibat obrolan saat sama-sama merancang acara pengenalan budaya Indonesia atau acara-acara lain. Di bulan-bulan berikutnya, meski berbeda kampus, kami selalu menyempatkan diri untuk bertemu di tempat-tempat yang berbeda. Kadang ia mengajakku ke acara Reading Festival di perpustakaan kreatif Hamilton Library atau ke kafe Carrow River di daerah Boulder Springs, atau sekadar duduk di Fiske Planetarium, melihat koleksi-koleksi teleskop.
+     
+     Kami dekat satu sama lain sebagai teman baik. Setelah tahun demi tahun berlalu, kami akhirnya menjadi sepasang kekasih.
+     
+     Saat libur musim panas, di tahun kedua kami di universitas, kami pulang ke Makassar. Aku mengajaknya ke rumahku menunjukkan kepada orangtuaku kalau Casandra wanita yang kupilih untuk menjadi kekasihku.
+     
+     Tanggapan tak mengenakkan kudapat. Orangtuaku tak senang dengan hubungan kami karena perbedaan etnis dan beberapa luka sisa-sisa konflik tahun 1998 yang masih membekas dengan sangat dalam. Hubunganku dengan Casandra merenggang selepas kejadian itu.
+     
+     Aku coba pasrah dan mengambil jarak sambil berpikir kalau mungkin itulah jalan yang terbaik. Terlalu banyak perbedaan bisajadi berdampak buruk ketika kami nanti menikah.
+     
+     Aku menyibukkan diri agar dapat melupakannya meski itu sangat sulit. Kenangan-kenangan bersamanya bermunculan saat aku tak memikirkan riset untuk tesisku.
+     
+     Saat di mana aku bisa mengatur otakku agar tak mengingatnya, tiba-tiba saja ia mengajak bertemu di Kota Kucing, sebulan setelah kami tak menjalin kontak sama sekali.
+     
+     “Aku tunggu sampai jam empat tanggal 25 Januari setelah kau kembali dari Makassar. Kalau lebih satu menit saja, aku akan masuk ke sana dan menjadi kucing.”
+     
+     Begitu pesan singkat yang kubaca seminggu lalu. Hanya dua kalimat. Tapi kalimat singkat itu mengandung harapan dan pertaruhan sekaligus. Gegara pesan singkatnya, aku kepikiran. Aku pernah bercerita tentang miitos Kota Kucing kepadanya di awal pertemuan kami. Aku mengatakan kalau Kota Kucing mungkin adalah tempat di mana manusia bisa bebas. Di sana manusia bisa jadi kucing dan tak berurusan dengan masalah kompleks karena ras, etnis, budaya yang melekat dan membatasi gerak manusia.
+     
+     Aku menceritakannya karena tak ada topik lain kala itu. Aku tak pernah menduga seseorang akan percaya dengan apa yang kuceritakan. Mungkin Casandra hanya ingin memanfaatkan mitos itu untuk membuat pertemuan ini jadi semakin sentimentil dan romantis untuk titik balik hubungan yang sempat terancam kandas.`,
+      img: "https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?auto=compress&cs=tinysrgb&w=600",
+    },
   ];
   const router = createBrowserRouter([
     {
