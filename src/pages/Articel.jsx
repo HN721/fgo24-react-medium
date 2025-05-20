@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../component/Navbar";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { Search } from "lucide-react";
 import { useForm } from "react-hook-form";
@@ -47,7 +46,6 @@ export default function Articel({ articel }) {
 
   return (
     <>
-      <Navbar />
       <form className="w-59 mx-12 mt-12" onSubmit={handleSubmit(handleSearch)}>
         <div className="flex border-1 items-center p-2 gap-2 rounded-lg">
           <Search />

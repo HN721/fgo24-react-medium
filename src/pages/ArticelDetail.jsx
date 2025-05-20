@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Navbar from "../component/Navbar";
 
 export default function ArticelDetail({ articel }) {
   const { username } = useParams();
@@ -17,7 +16,6 @@ export default function ArticelDetail({ articel }) {
 
   return (
     <>
-      <Navbar />
       <div className="flex flex-col gap-8 p-8">
         {data.map((e, i) => (
           <div key={i} className="bg-white shadow-md p-6 rounded-xl">

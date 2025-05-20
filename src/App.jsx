@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Articel from "./pages/Articel";
 import ArticelDetail from "./pages/ArticelDetail";
+import Layout from "./component/Layout";
 export default function App() {
   const [artikel, setArtikel] = useState([]);
 
@@ -179,12 +180,18 @@ export default function App() {
   ];
   const router = createBrowserRouter([
     {
-      path: "/",
-      element: <Articel articel={listArticel} />,
-    },
-    {
-      path: "/Aricel/:username/:slug",
-      element: <ArticelDetail articel={listArticel} />,
+      path: "",
+      element: <Layout />,
+      children: [
+        {
+          path: "/",
+          element: <Articel articel={listArticel} />,
+        },
+        {
+          path: "/Aricel/:username/:slug",
+          element: <ArticelDetail articel={listArticel} />,
+        },
+      ],
     },
   ]);
   return (
