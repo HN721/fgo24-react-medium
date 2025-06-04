@@ -9,31 +9,59 @@ This repo contains the source code of the React to learn more about Dynamic Prog
 
 ## How To Run This Project
 
-1. Clone this repository:
+### Manual
 
-   ```bash
-   git clone "https://github.com/HN721/fgo24-react-medium.git"
-   ```
+1. Clone this repository
 
-2. Install dependencies:
+```bash
+git clone https://github.com/HN721/fgo24-react-medium.git
+```
 
-   ```bash
-   npm install
-   ```
+2. Get into the path
 
-3. Make sure you have installed the following dependency:
+```bash
+cd fgo24-react-medium
+```
 
-   ```
-   vite
-   ```
+3. Install the dependencies
 
-4. Start the project with:
+```bash
+npm install
+```
 
-   ```bash
-    npm run dev
-   ```
+4. Run the project
 
-5. The project will run at: http://localhost:5501
+```bash
+npm run dev
+```
+
+### With Docker
+
+1. Clone this repository
+
+```bash
+git clone https://github.com/HN721/fgo24-react-medium.git
+```
+
+2. Get into the path
+
+```bash
+cd fgo24-react-medium
+```
+
+3. Build image
+
+```bash
+docker build . -t ubuntu:medium
+```
+
+4. Run image with docker
+
+```bash
+docker run -p 8080:80 -d ubuntu:medium
+```
+
+5. Visit your app in http://localhost:8080
 
 ---
 
